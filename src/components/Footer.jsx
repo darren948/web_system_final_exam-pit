@@ -204,7 +204,7 @@ const Footer = () => {
     <div className="footer-bottom">
         <div className="container">
             <div className="section-wrapper">
-                <p>&copy; 2024 <Link to="/">Shop Cart</Link> Designed by Uyangurin, Alejo, and Rosales</p>
+                <p>&copy; 2024 <Link to="/">Adi Shop</Link> Designed by Uyangurin, Alejo, and Rosales</p>
                 <div className="footer-bottom-list">
                     {footerbottomList.map((val, i) => (
                         <a href={val.link} key={i}>{val.text}</a>
